@@ -907,4 +907,95 @@ header .inner > a > img:first-child{
 }
 
 
+/* ---------------------------💛footer 시작💛------------------------------ */
+
+footer{
+    width: 1920px;
+    background: #ffd5d5;
+    padding: 100px 0 20px;
+}
+footer .inner{
+    width: 1440px;
+    margin: 0 auto;
+}
+footer .inner .up{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 70px;
+}
+footer .inner .up .left a {
+    display: block;
+    margin-bottom: 20px;
+    text-align: left;
+}
+footer .inner .up .left a:nth-child(2){
+    color: #8fdefd;
+}
+footer .inner .up .left a:nth-child(3){
+    color: #8ffdbb;
+}
+footer .inner .up .left a:nth-child(4){
+    color: #e0fd8f;
+}
+footer .inner .up .left a:nth-child(5){
+    color: #fdcd8f;
+}
+footer .inner .up .left a:nth-child(6){
+    color: #fd8f8f;
+}
+footer .inner .up .left a:first-child{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #6b6a6a;
+    font-weight: 900;
+}
+footer .inner .up .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+footer .inner .up .center a{
+    display: block;
+}
+footer .inner .up .right a{
+    display: block;
+    margin-bottom: 20px;
+    text-align: right;
+}
+footer .inner .up .right a:nth-child(2){
+    color: #fd8ff4;
+}
+footer .inner .up .right a:nth-child(3){
+    color: #8f96fd;
+}
+footer .inner .up .right a:nth-child(4){
+    color: #a3fd8f;
+}
+footer .inner .up .right a:nth-child(5){
+    color: #fdd58f;
+}
+footer .inner .up .right a:nth-child(6){
+    color: #8fd6fd;
+}
+footer .inner .up .right a:first-child{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #6b6a6a;
+    font-weight: 900;
+}
+footer .inner .down div{
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+footer .inner .down div:first-child a{
+    margin: 0 10px;
+    color: #3333336b;
+}
+footer .inner .down div:last-child p{
+    margin-bottom: 10px;
+}
+
 
