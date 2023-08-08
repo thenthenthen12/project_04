@@ -15,9 +15,16 @@
         $(function () {
             //로딩페이지 스크립트
             $('#loading').click(function(){
-                $(this).fadeOut(1000)
-                $('#wrap').fadeIn(1000)
+                $('#loading').show();
+                $('#wrap').hide();
+                $('#loading').click(function () {
+                    $('#loading').fadeOut(400);
+                    $('#wrap').fadeIn(1300);
+                    return false;
+                });
+
             })
+
 
 
             //헤더 스크립트
