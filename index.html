@@ -26,9 +26,16 @@
 
             $('nav > ul li').click(function () {
                 $('.depth_01').addClass('on');
+                $('body').css({
+                    'overflow' : 'hidden'
+                })
             });
             $('.depth_01 > ul li a img:last-child').click(function () {
                 $('.depth_01').removeClass('on');
+                $('body').css({
+                    'overflow' : 'visible'
+                })
+
             });
 
 
@@ -41,22 +48,26 @@
             $('.section_01 div div img:first-child').mouseenter(function () {
                 $(this).next().addClass('on')
 
-                    $(this).click(function () {
-                        if($(this).attr('alt') == '문자'){
-                            $('.section_01  div  div img:last-child.on').animate({
-                            'rotate': '720deg'
-                        }, 400)
-                            $(this).attr('alt', '캐릭터')
-                        }
-                        else{
-                            $('.section_01  div  div img:last-child.on').animate({
-                            'rotate': '0deg'
-                        }, 400)
-                            $(this).attr('alt', '문자')
-                        }
 
-                    })
+                $(this).click(function () {        
+                    if($(this).attr('alt') == '문자'){        
+                        $('.section_01  div  div img:last-child.on').animate({
+                        'rotate': '720deg'
+                    }, 400)
+                        $(this).attr('alt', '캐릭터')
+                    }
+                    else{
+                        $('.section_01  div  div img:last-child.on').animate({
+                        'rotate': '0deg'
+                    }, 400)
+                        $(this).attr('alt', '문자')
+                    }
+                })
             })
+
+
+
+
 
 
             // setInterval(function(){
