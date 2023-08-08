@@ -54,12 +54,9 @@ body {
 /* ---------------------------💛loading 페이지 시작💛------------------------------ */
 #wrap{
     display: none;
+    max-width: 1920px;
+    width: 100%;
 }
-
-
-
-
-
 header {
     width: 1920px;
     margin: 0 auto;
