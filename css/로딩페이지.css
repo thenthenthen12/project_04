@@ -5,14 +5,7 @@
     font-weight: normal;
     font-style: normal;
 }
-/**
-* get random number.
-* @param {number} min - min number.
-* @param {number} max - max number.
-*/
-/*
-* variable
-*/
+
 #loading{
   height: 100vh;
   width: 100vw;
