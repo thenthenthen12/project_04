@@ -56,10 +56,6 @@ body {
     display: none;
 }
 
-
-
-
-
 header {
     width: 1920px;
     margin: 0 auto;
@@ -296,71 +292,42 @@ main .main_visual .inner .cont img:first-child{
     top: -91px;
     left: 26px;
 }
-/* main .main_visual .inner .cont img:first-child:hover{
-    left: 16px;
-    transition: 0.5s;
-} */
+
 main .main_visual .inner .cont img:nth-child(2){
     top: 212px;
     left: 339px;
 }
-/* main .main_visual .inner .cont img:nth-child(2):hover{
-    left: 329px;
-    transition: 0.5s;
-} */
+
 main .main_visual .inner .cont img:nth-child(3){
     top: 308px;
     left: 0;
 }
-/* main .main_visual .inner .cont img:nth-child(3):hover{
-    left: -10px;
-    transition: 0.5s;
-} */
+
 main .main_visual .inner .cont img:nth-child(4){
     bottom: 10px;
     left: 201px;
 }
-/* main .main_visual .inner .cont img:nth-child(4):hover{
-    bottom: 0;
-    left: 191px;
-    transition: 0.5s;
-} */
+
 main .main_visual .inner .cont img:nth-child(5){
     bottom: 7px;
     left: 405px;
 }
-/* main .main_visual .inner .cont img:nth-child(5):hover{
-    bottom: 17px;
-    left: 395px;
-    transition: 0.5s;
-} */
+
 main .main_visual .inner .cont img:nth-child(6){
     bottom: 247px;
     left: 50%;
     transform: translateX(-50%);
 }
-/* main .main_visual .inner .cont img:nth-child(6):hover{
-    bottom: 257px;
-    transition: 0.5s;
-} */
+
 main .main_visual .inner .cont img:nth-child(7){
     top: 53px;
     right: 79px;
 }
-/* main .main_visual .inner .cont img:nth-child(7):hover{
-    top: 63px;
-    right: 89px;
-    transition: 0.5s;
-} */
+
 main .main_visual .inner .cont img:nth-child(8){
     bottom: 36px;
     right: 186px;
 }
-/* main .main_visual .inner .cont img:nth-child(8):hover{
-    bottom: 26px;
-    right: 196px;
-    transition: 0.5s;
-} */
 
 
 /* ---------------------------------------keyframe-------------------------------------- */
@@ -536,22 +503,6 @@ header .inner > a > img:first-child{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ---------------------------💛section_02시작💛------------------------------ */
 
 
@@ -615,18 +566,8 @@ header .inner > a > img:first-child{
     padding: 50px;
     background: #f9eacd;
     border-radius: 50px;
-    /* transform: scale(0); */
     display: none;
 }
-/* .info.on{
-    transform: scale(1);
-    top: 0;
-    left: 0;
-    transition: 1s;
-} */
-
-
-
 
 .cont_01 .inner .list .item img{
     position: absolute;
@@ -786,11 +727,6 @@ header .inner > a > img:first-child{
     font-size: 20px;
     transition: 2s;
     color: #6b6a6a;
-    /* position: absolute;
-    bottom: -70px;
-    width: 100%;
-    left: 50%;
-    transform: translateX(-50%); */
 }
 
 /* ---------------------------💛section_04시작💛------------------------------ */
